@@ -1,0 +1,9 @@
+
+{
+  "env": {
+    "es6": true,
+    "esversion": 6,
+    "asi": true
+  }
+}
+

@@ -1,0 +1,187 @@
+basic_settings:
+  site_title: pulamusic
+  site_tagline: music, instructional design, humanities
+  favicon_image: /images/logos/favicon.ico
+
+header_settings:
+  logo_image: /images/logos/pulamusic-logo.png
+  logo_width: 200
+
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'About'
+      url: '/about'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'Contact'
+      url: '/contact'
+
+grid_settings:
+  overlay_opacity: 0.8
+  grid_spacing: 20
+
+# ======== contact ========
+
+contact_settings:
+  form_action: 'https://formspree.io/f/xrgrpyva'
+  confirmation_url: '/thanks'
+  email_subject: 'Contact form submission from pulamusic-portfolio'
+  send_button_text: 'Send Message'
+
+# ======== social ========
+
+social_settings:
+  facebook_url: 'https://www.facebook.com/PulaBlog-105375687956509'
+  twitter_url: 'https://twitter.com/pulamusic'
+  instagram_url: ''
+  snapchat_url: ''
+  youtube_url: ''
+  google-plus_url: ''
+  vimeo_url: ''
+  pinterest_url: ''
+  medium_url: '' # I should write something for Medium
+  quora_url: ''
+  amazon_url: ''
+  apple_url: ''
+  android_url: ''
+  tumblr_url: ''
+  dribbble_url: ''
+  behance_url: ''
+  deviantart_url: ''
+  github_url: 'https://github.com/pulamusic'
+  reddit_url: ''
+  flickr_url: ''
+  etsy_url: ''
+  kickstarter_url: ''
+  soundcloud_url: 'https://soundcloud.com/pulamusic'
+  spotify_url: ''
+  bandcamp_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/james-carroll-36001511a/'
+
+# ======== colors ========
+
+color_settings:
+  background_color: 'rgba(222, 227, 234, 0.6)'
+  # background_color: '#ffffff'
+  # background_color: '#e2ddcc'
+  background_alt_color: '#F5F7FA'
+  text_dark_color: '#2A2F36'
+  text_medium_color: '#6C7A89'
+  text_light_color: '#ABB7B7'
+  accent_color: '#577ec1'
+  border_color: '#dddddd'
+  overlay_background_color: '#6281d1'
+  overlay_text_color: '#ffffff'
+  overlay_accent_color: '#2A2F36'
+  error_color: '#D64541'
+
+# ======== change the fonts ========
+
+font_settings:
+  font_embed: '<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">'
+  title_font: '"Montserrat", sans-serif'
+  body_font: '"Open Sans", sans-serif'
+  regular_weight: 300
+  bold_weight: 500
+  site_title:
+    small_size: 25
+    medium_size: 35
+    large_size: 45
+    weight: 500
+    letter_spacing: -0.02
+  site_tagline:
+    small_size: 16
+    medium_size: 18
+    large_size: 20
+    weight: 300
+    letter_spacing: 0
+    line_height: 1.5
+  menu:
+    small_size: 30
+    medium_size: 15
+    large_size: 16
+    weight: 500
+    letter_spacing: 0
+  grid_item_title:
+    small_size: 22
+    medium_size: 26
+    large_size: 30
+    weight: 500
+    letter_spacing: -0.02
+  grid_item_subtitle:
+    small_size: 15
+    medium_size: 16
+    large_size: 17
+    weight: 300
+    letter_spacing: 0
+  h1:
+    small_size: 25
+    medium_size: 35
+    large_size: 45
+    weight: 500
+    letter_spacing: -0.02
+    line_height: 1.2
+  h2:
+    small_size: 22
+    medium_size: 30
+    large_size: 35
+    weight: 500
+    letter_spacing: -0.02
+    line_height: 1.2
+  h3:
+    small_size: 22
+    medium_size: 25
+    large_size: 30
+    weight: 500
+    letter_spacing: -0.02
+    line_height: 1.3
+  h4:
+    small_size: 17
+    medium_size: 22
+    large_size: 22
+    weight: 500
+    letter_spacing: 0
+    line_height: 1.6
+  h5:
+    small_size: 17
+    medium_size: 20
+    large_size: 20
+    weight: 500
+    letter_spacing: 0
+    line_height: 1.6
+  h6:
+    small_size: 17
+    medium_size: 20
+    large_size: 20
+    weight: 500
+    letter_spacing: 0
+    line_height: 1.6
+  p:
+    small_size: 16
+    medium_size: 18
+    large_size: 20
+    weight: 300
+    letter_spacing: 0
+    line_height: 1.6
+  blockquote:
+    small_size: 25
+    medium_size: 35
+    large_size: 45
+    weight: 300
+    letter_spacing: -0.02
+    line_height: 1.6
+  buttons:
+    weight: 500
+    letter_spacing: 0
+
+# ======== advanced ========
+
+advanced_settings:
+  ajax_loading: true
+  analytics_code: "UA-180716474-1" # Analytics account for pulamusic-portfolio
+  custom_styles: "./_sass/custom.scss" # I suppose this should have been the way to do it
+  header_js: '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script type="text/javascript" src="./js/infinite-scroll.js"></script>' # jquery & local script for infinite scroll
+  footer_js: '<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pulamusic/pulamusic-scripts@master/active-scripts/copyright.js"></script>' # My own script for copyright year.
